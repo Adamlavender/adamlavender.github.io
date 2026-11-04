@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#f6f2ec">
+	<title>Adam's Homepage</title>
+	<style>
+		:root {
+			color-scheme: light;
+			font-family: "Inter", "Avenir Next", Avenir, sans-serif;
+			color: #242a35;
+			background: #f6f2ec;
+		}
+
+		* { box-sizing: border-box; }
+
+		body {
+			min-height: 100vh;
+			margin: 0;
+			display: grid;
+			place-items: center;
+			padding: 2rem;
+			background:
+				radial-gradient(ellipse at 18% 20%, #f6d9c8 0, transparent 34%),
+				radial-gradient(ellipse at 85% 82%, #cbd9ee 0, transparent 38%),
+				#f6f2ec;
+		}
+
+		main {
+			width: min(100%, 720px);
+			padding: clamp(2.5rem, 8vw, 6rem);
+			text-align: center;
+			background: rgb(255 255 255 / 72%);
+			border: 1px solid rgb(255 255 255 / 90%);
+			border-radius: 2rem;
+			box-shadow: 0 24px 80px rgb(52 57 70 / 10%);
+			backdrop-filter: blur(12px);
+		}
+
+		.eyebrow {
+			margin: 0 0 1.25rem;
+			color: #8b6a58;
+			font-size: 0.75rem;
+			font-weight: 700;
+			letter-spacing: 0.2em;
+			text-transform: uppercase;
+		}
+
+		h1 {
+			max-width: 13ch;
+			margin: 0 auto;
+			font-size: clamp(2.5rem, 8vw, 5rem);
+			font-weight: 650;
+			letter-spacing: -0.065em;
+			line-height: 1.05;
+		}
+
+		h1 span {
+			color: #b16e50;
+			white-space: nowrap;
+		}
+
+		.note {
+			margin: 1.75rem 0 0;
+			color: #777b83;
+			font-size: 1rem;
+			letter-spacing: 0.02em;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<p class="eyebrow">A little corner of the internet</p>
+		<h1>Hi, this is <span>Adam's</span> homepage, he'll finish it soon</h1>
+		<p class="note">In the meantime, thanks for stopping by.</p>
+	</main>
+</body>
+</html>
